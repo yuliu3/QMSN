@@ -1,5 +1,4 @@
 import copy
-import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 import random
@@ -106,27 +105,5 @@ plt.errorbar([1], [qb1 + iqrb/2], yerr=iqrb/2, color='firebrick', linewidth=1, c
 plt.errorbar([2], [q11 + iqr1/2], yerr=iqr1/2, color='firebrick', linewidth=1, capsize=8)
 plt.errorbar([3], [q21 + iqr2/2], yerr=iqr2/2, color='firebrick', linewidth=1, capsize=8)
 plt.errorbar([4], [q31 + iqr3/2], yerr=iqr3/2, color='firebrick', linewidth=1, capsize=8)
-plt.savefig("./plots/fig1b.pdf", format="pdf", bbox_inches='tight')
+plt.savefig("./plots/fig_15.pdf", format="pdf", bbox_inches='tight')
 plt.show()
-print(data_mean/data_mean[0])
-
-
-# fig, ax = plt.subplots()
-# bp = plt.boxplot(data, notch=False,  # notch shape
-#                  vert=True,  # vertical box alignment
-#                  patch_artist=True,  # fill with color
-#                  labels=labels,
-#                  showfliers=False)
-# # fill with colors
-# colors = ['skyblue', 'lightgreen', 'sandybrown', 'plum']
-# for patch, color in zip(bp['boxes'], colors):
-#     patch.set_facecolor(color)
-#
-# # show plot
-# plt.xlabel('Topologies', size=16)
-# plt.ylabel('Entanglement Generation Time', size=16)
-# plt.yscale("log")
-# ax.set_xticklabels(labels, fontsize=12)
-# plt.grid()
-# # plt.savefig("./plots/fig5.pdf", format="pdf", bbox_inches='tight')
-# plt.show()
