@@ -1,8 +1,7 @@
 @software{GitCode,
   author = {Liu, Yu},
-  doi = {10.5281/zenodo.1234},
   month = {12},
-  title = {QMSN for DQC Simulation Code},
+  title = {{QMSN for DQC Simulation Code}},
   url = {https://github.com/yuliu3/QMSN},
   year = {2024}
 }
