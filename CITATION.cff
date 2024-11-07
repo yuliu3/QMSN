@@ -1,7 +1,9 @@
-@software{GitCode,
+@software{liu2024qmsn,
   author = {Liu, Yu},
+  doi = {},
   month = {12},
   title = {{QMSN for DQC Simulation Code}},
   url = {https://github.com/yuliu3/QMSN},
+  version = {1.0},
   year = {2024}
 }
