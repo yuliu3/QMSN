@@ -1,6 +1,6 @@
 @software{liu2024qmsn,
   author = {Liu, Yu},
-  doi = {},
+  doi = {10.1109/TMC.2023.3285882},
   month = {12},
   title = {{QMSN for DQC Simulation Code}},
   url = {https://github.com/yuliu3/QMSN},
